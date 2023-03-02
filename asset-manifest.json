@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-05-movies/static/css/main.543b359c.css",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.ab281974.js",
+    "static/media/theRock.jpg": "/goit-react-hw-05-movies/static/media/theRock.dc0722e62877d63a1ca2.jpg",
+    "index.html": "/goit-react-hw-05-movies/index.html",
+    "main.543b359c.css.map": "/goit-react-hw-05-movies/static/css/main.543b359c.css.map",
+    "main.ab281974.js.map": "/goit-react-hw-05-movies/static/js/main.ab281974.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.543b359c.css",
+    "static/js/main.ab281974.js"
+  ]
+}
