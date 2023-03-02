@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 export const FormSearchMovie = ({ submit }) => {
   const [search, setSearch] = useState('');
   const onHandleChange = e => {
@@ -21,4 +22,8 @@ export const FormSearchMovie = ({ submit }) => {
       <button disabled={!search.trim()}>Submit</button>
     </form>
   );
+};
+
+FormSearchMovie.propTypes = {
+  submit: PropTypes.func.isRequired,
 };

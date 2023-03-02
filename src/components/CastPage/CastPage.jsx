@@ -2,8 +2,8 @@ import { getActor } from 'services/getFetch';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import imgs from '../../Images/theRock.jpg';
-import css from './PageCast.module.css';
-export const PageCast = () => {
+import css from './CastPage.module.css';
+export const CastPage = () => {
   const { id } = useParams();
   const [actor, setActor] = useState([]);
   useEffect(() => {
