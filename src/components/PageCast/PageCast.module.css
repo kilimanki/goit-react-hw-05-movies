@@ -1,0 +1,17 @@
+.actorImg{
+    height: 100px;
+    padding: 10px;
+}
+.item{
+width: 150px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: bisque;
+}
+.items{
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+}

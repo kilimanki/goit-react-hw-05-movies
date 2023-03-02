@@ -1,0 +1,13 @@
+.item{
+border: 2px solid;
+border-radius: 4px;
+padding: 20px;
+margin: 10px;
+}
+.info{
+    margin: 25px;
+    color: black;
+}
+.image{
+    height: 300px;
+}

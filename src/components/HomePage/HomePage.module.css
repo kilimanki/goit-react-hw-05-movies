@@ -1,0 +1,21 @@
+.item{
+    display: inline-block;
+    margin: 10px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style-type: none;
+}
+.image{
+    height: 500px;
+}
+a{
+   text-decoration: none;
+}
+.title{
+    font-weight: bold;
+    color: black;
+}
