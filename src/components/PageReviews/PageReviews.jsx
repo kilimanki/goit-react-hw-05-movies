@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getReviews } from 'services/getFetch';
 import css from './PagesReviews.module.css';
-export const PageReviews = () => {
+const PageReviews = () => {
   const [reviews, setReviews] = useState([]);
   const { id } = useParams();
   useEffect(() => {
@@ -23,10 +23,8 @@ export const PageReviews = () => {
   const elements = reviews.map(({ name, content }) => {
     return (
       <>
-        <li>
-          <h3>Author: {name}</h3>
-        </li>
-        <li>{content}</li>
+        <h3>Author: {name}</h3>
+        <li key={name}>{content}</li>
       </>
     );
   });
@@ -40,3 +38,4 @@ export const PageReviews = () => {
     </ul>
   );
 };
+export default PageReviews;

@@ -9,7 +9,7 @@ import {
 import { detailsMovie } from 'services/getFetch';
 import css from './DetailsMoviePage.module.css';
 import imgs from '../../Images/theRock.jpg';
-export const DetailsMoviePage = () => {
+const DetailsMoviePage = () => {
   const location = useLocation();
   const from = location.state?.from || `/`;
   const navigate = useNavigate();
@@ -83,3 +83,4 @@ export const DetailsMoviePage = () => {
     </>
   );
 };
+export default DetailsMoviePage;

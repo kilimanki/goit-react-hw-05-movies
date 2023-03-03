@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { searchMovie } from 'services/getFetch';
 import css from './HomePage.module.css';
 
-export const HomePage = () => {
+const HomePage = () => {
   const location = useLocation();
   const [movies, setMovies] = useState([]);
   useEffect(() => {
@@ -51,3 +51,4 @@ export const HomePage = () => {
     </>
   );
 };
+export default HomePage;

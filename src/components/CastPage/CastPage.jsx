@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import imgs from '../../Images/theRock.jpg';
 import css from './CastPage.module.css';
-export const CastPage = () => {
+const CastPage = () => {
   const { id } = useParams();
   const [actor, setActor] = useState([]);
   useEffect(() => {
@@ -40,3 +40,4 @@ export const CastPage = () => {
 
   return <ul className={css.items}>{elements}</ul>;
 };
+export default CastPage;
