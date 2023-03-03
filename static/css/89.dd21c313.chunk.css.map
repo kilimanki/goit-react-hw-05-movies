@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/89.dd21c313.chunk.css","mappings":"AAAA,0BAII,0BAA2B,CAH3B,gBAAiB,CACjB,iBAAkB,CAClB,YAEJ","sources":["components/PageReviews/PagesReviews.module.css"],"sourcesContent":[".list{\n    border: 2px solid;\n    border-radius: 4px;\n    padding: 30px;\n    background-color: #4548b4cf;\n}"],"names":[],"sourceRoot":""}
